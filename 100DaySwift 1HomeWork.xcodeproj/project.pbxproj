@@ -13,6 +13,11 @@
 		B13B538627F2247900BF1E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13B538427F2247900BF1E7B /* Main.storyboard */; };
 		B13B538827F2247900BF1E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13B538727F2247900BF1E7B /* Assets.xcassets */; };
 		B13B538B27F2247900BF1E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13B538927F2247900BF1E7B /* LaunchScreen.storyboard */; };
+		B13B539727F22B5400BF1E7B /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13B539327F22B5400BF1E7B /* nssl0041.jpg */; };
+		B13B539827F22B5400BF1E7B /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13B539427F22B5400BF1E7B /* nssl0042.jpg */; };
+		B13B539927F22B5400BF1E7B /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13B539527F22B5400BF1E7B /* nssl0033.jpg */; };
+		B13B539A27F22B5400BF1E7B /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13B539627F22B5400BF1E7B /* nssl0034.jpg */; };
+		B1423AA127F23977000459DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1423AA027F23977000459DC /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		B13B538727F2247900BF1E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B13B538A27F2247900BF1E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B13B538C27F2247900BF1E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13B539327F22B5400BF1E7B /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		B13B539427F22B5400BF1E7B /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		B13B539527F22B5400BF1E7B /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		B13B539627F22B5400BF1E7B /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
+		B1423AA027F23977000459DC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +69,25 @@
 				B13B537E27F2247800BF1E7B /* AppDelegate.swift */,
 				B13B538027F2247900BF1E7B /* SceneDelegate.swift */,
 				B13B538227F2247900BF1E7B /* ViewController.swift */,
+				B1423AA027F23977000459DC /* DetailViewController.swift */,
 				B13B538427F2247900BF1E7B /* Main.storyboard */,
+				B13B539227F22B5400BF1E7B /* Content */,
 				B13B538727F2247900BF1E7B /* Assets.xcassets */,
 				B13B538927F2247900BF1E7B /* LaunchScreen.storyboard */,
 				B13B538C27F2247900BF1E7B /* Info.plist */,
 			);
 			path = "100DaySwift 1HomeWork";
+			sourceTree = "<group>";
+		};
+		B13B539227F22B5400BF1E7B /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				B13B539327F22B5400BF1E7B /* nssl0041.jpg */,
+				B13B539427F22B5400BF1E7B /* nssl0042.jpg */,
+				B13B539527F22B5400BF1E7B /* nssl0033.jpg */,
+				B13B539627F22B5400BF1E7B /* nssl0034.jpg */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13B539827F22B5400BF1E7B /* nssl0042.jpg in Resources */,
+				B13B539A27F22B5400BF1E7B /* nssl0034.jpg in Resources */,
+				B13B539927F22B5400BF1E7B /* nssl0033.jpg in Resources */,
+				B13B539727F22B5400BF1E7B /* nssl0041.jpg in Resources */,
 				B13B538B27F2247900BF1E7B /* LaunchScreen.storyboard in Resources */,
 				B13B538827F2247900BF1E7B /* Assets.xcassets in Resources */,
 				B13B538627F2247900BF1E7B /* Main.storyboard in Resources */,
@@ -141,6 +168,7 @@
 				B13B538327F2247900BF1E7B /* ViewController.swift in Sources */,
 				B13B537F27F2247800BF1E7B /* AppDelegate.swift in Sources */,
 				B13B538127F2247900BF1E7B /* SceneDelegate.swift in Sources */,
+				B1423AA127F23977000459DC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
